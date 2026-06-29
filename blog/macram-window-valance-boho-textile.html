@@ -46,5 +46,44 @@ li{margin:.4em 0;font-size:.92em}
 <h2>Frequently Asked Questions</h2><div class="faq-section"><div class="faq-item"><h3>What is a macramé window valance?</h3><p>A macramé window valance is a decorative textile piece featuring knotted rope or cord patterns, typically hung above windows as a boho-inspired accent. It combines artisanal craftsmanship with modern interior design.</p></div><div class="faq-item"><h3>How do I hang a macramé window valance?</h3><p>Most macramé valances feature a rod pocket or mounting hardware for easy installation. Simply use a standard curtain rod, tension rod, or adhesive hooks to hang above your window.</p></div><div class="faq-item"><h3>Are macramé valances easy to clean?</h3><p>Macramé requires gentle care. Use a soft brush or vacuum attachment to remove dust, or hand wash with mild soap and water. Avoid harsh chemicals that may damage the fibers.</p></div><div class="faq-item"><h3>Will a macramé valance block light or provide privacy?</h3><p>Macramé valances are primarily decorative and won't block significant light or provide privacy. Pair them with blackout curtains or shades for functional light control.</p></div><div class="faq-item"><h3>What room styles work best with macramé valances?</h3><p>Macramé valances complement bohemian, eclectic, farmhouse, and coastal décor styles. They also work well in modern spaces seeking texture and warmth.</p></div></div>
 <p class="disclosure">As an Amazon Associate we earn from qualifying purchases at no extra cost to you.</p>
 <a class="back" href="https://besthomedecorpicksdaily.com/">&larr; Back to Best Home Decor Picks Daily</a>
+<!-- benson-email-capture -->
+<div id="benson-popup" style="display:none;position:fixed;bottom:24px;right:24px;z-index:99999;
+  background:#fff;border-radius:18px;padding:24px;max-width:310px;width:92%;
+  box-shadow:0 12px 48px rgba(0,0,0,.2);border:1px solid #f0f0f0;font-family:system-ui,sans-serif">
+  <button onclick="bensonClose()"
+    style="position:absolute;top:12px;right:16px;background:none;border:none;font-size:1.3em;cursor:pointer;color:#ccc;line-height:1">&times;</button>
+  <h3 style="margin:0 0 6px;font-size:1em;color:#111;line-height:1.3">Decorate Smarter, Spend Less</h3>
+  <p style="margin:0 0 14px;font-size:.83em;color:#666">Weekly home decor deals and style tips — free.</p>
+  <form action="https://github.us22.list-manage.com/subscribe/post?u=265f3a9f135d549492bf9a270&id=b20f19d114" method="post" target="_blank"
+    style="margin:0" onsubmit="bensonOnSubmit()">
+    <input type="hidden" name="MMERGE1" value="homedecor">
+    <input type="hidden" name="b_265f3a9f135d549492bf9a270_b20f19d114" value="">
+    <input type="email" name="EMAIL" placeholder="your@email.com" required
+      style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #e0e0e0;
+      border-radius:10px;font-size:.9em;margin-bottom:8px;outline:none">
+    <button type="submit"
+      style="width:100%;background:#6a4c93;color:#fff;border:none;padding:12px;
+      border-radius:10px;font-weight:700;cursor:pointer;font-size:.95em">Get Free Picks &rarr;</button>
+  </form>
+  <p style="margin:10px 0 0;font-size:.7em;color:#ccc;text-align:center">No spam. Unsubscribe anytime.</p>
+</div>
+<script>
+(function(){
+  function bensonClose(){
+    document.getElementById('benson-popup').style.display='none';
+    sessionStorage.setItem('bpop','1');
+  }
+  window.bensonClose = bensonClose;
+  window.bensonOnSubmit = function(){
+    localStorage.setItem('bsub','1');
+    setTimeout(bensonClose, 500);
+  };
+  if (!localStorage.getItem('bsub') && !sessionStorage.getItem('bpop')) {
+    setTimeout(function(){
+      document.getElementById('benson-popup').style.display='block';
+    }, 20000);
+  }
+})();
+</script>
 </body>
 </html>
