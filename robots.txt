@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://besthomedecorpicksdaily.com/sitemap.xml
